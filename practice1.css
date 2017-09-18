@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+#first{
+    position:relative;
+    border:1px solid black;
+}
+
+#first > h1{
+    position:relative;
+    background-color: #b9b3b2;
+    width:50%;
+}
+
+#first > h1:hover{
+    background-color: #e1dbda;;
+    transition:background-color 1s;
+}
+
+#first > h1:not(:hover){
+    background-color:#b9b3b2;
+    transition:background-color 1s;
+}
+
+#first > p{
+    position:relative;
+    border:1px solid blue;
+}
+
+#first > h2{
+    position:relative;
+    border:1px solid red;
+}
+
+#first > h2:hover{
+    padding-left:calc(50% - 25px);
+    border: 2px solid black;
+    transition: padding-left 5s, border 3s;
+}
+
+#first > h2:not(:hover){
+    padding-left:0;
+    transition: padding-left 15s;
+}
+
+.align1{
+    top:0;
+}
